@@ -7,4 +7,11 @@ ActionMailer::Base.smtp_settings = {
   :password => ENV["SENDGRID_PASSWORD"],
   :domain => 'heroku.com',
   :enable_starttls_auto => true 
+  
 }
+
+
+
+# heroku config:get SENDGRID_USERNAME
+
+# heroku config:get SENDGRID_PASSWORD
