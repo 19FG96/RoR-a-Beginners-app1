@@ -26,6 +26,8 @@ gem "font-awesome-rails"
 gem 'bootstrap-sass-extras', '~> 0.0.2'
 gem 'devise', '~> 4.8', '>= 4.8.1'
 gem 'simple_form', '~> 5.1'
+gem 'will_paginate', '~> 3.1'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 
 
 group :development, :test do
