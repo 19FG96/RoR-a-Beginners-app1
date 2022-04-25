@@ -21,7 +21,7 @@
  <% @articles.each do |a| %>
  Created by: <%= a.user.username %><br />
 
-2 
+
  <strong><%= link_to a.title, a %></strong>
  <p><%= truncate(a.body) %></p>
  <% end %>
