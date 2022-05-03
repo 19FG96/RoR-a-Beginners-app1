@@ -29,7 +29,7 @@
 <div class="col-md-4">
   <div class="well">
      <h4>Recent articles</h4>
-      <% @last5.each do |p| %>
+      <% @last_five_articles.each do |p| %>
        Created by: <%= p.user.username %><br />
       <strong><%= link_to p.title, p %></strong>
       <p><%= truncate(p.body) %></p>
